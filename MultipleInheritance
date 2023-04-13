@@ -1,0 +1,31 @@
+
+public class abc
+{
+    public static String name;
+	public static void main(String [] args)
+    {
+    	System.out.println("hello");
+    	abc a=new abc();
+    	a.name="bhushan";
+    	b.name="bhushi";
+    	abc.main(args);
+    	a hello=new a();
+    	b bhai=new b();
+    	hello.ab();
+    	bhai.bc();
+    }
+}
+class a extends abc
+{
+	public void ab()
+	{
+		System.out.println("its an extension 1");
+	}
+}
+class b extends a
+{
+	public void bc()
+	{
+		System.out.println("its an extension 2");
+	}
+}
